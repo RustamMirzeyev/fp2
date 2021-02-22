@@ -1,0 +1,140 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+.img {
+  width: 100%;
+}
+.col-12 {
+  width: 100%;
+}
+.homepage {
+
+  margin: 0 auto;
+  height: 348px;
+  left: 0px;
+  top: 0px;
+  background: linear-gradient(
+      0deg,
+      rgba(50, 73, 94, 0.7),
+      rgba(50, 73, 94, 0.7)
+    ),
+    url(../img/back.png);
+  background-size: cover;
+}
+.menubar {
+  position: relative;
+
+  width: 1412px;
+  height: 65px;
+  padding-left: 115px;
+  padding-right: 127px;
+  padding-top: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  position: fixed;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 45px;
+  width: 206px;
+
+  border-radius: 0px;
+
+  p {
+    height: 30.085712432861328px;
+    width: 116px;
+    left: 90px;
+    top: 7.02001953125px;
+    
+
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 30px;
+    margin-left: 20px;
+    color: #f9f9f9;
+  }
+}
+
+.icon {
+  height: 45px;
+  width: 70px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+
+  left: 0%;
+  right: 94.02%;
+  top: 0%;
+  bottom: 0%;
+}
+.menu {
+  margin-left: 422px;
+  ul {
+    li {
+      display: inline-block;
+
+      a {
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+
+        padding-left: 40px;
+        display: flex;
+        align-items: center;
+        color: #f9f9f9;
+      }
+    }
+  }
+}
+.content {
+  position: absolute;
+  width: 1170px;
+  height: 52px;
+  left: 115px;
+  top: 165px;
+  h1 {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 44px;
+    line-height: 52px;
+    text-transform: uppercase;
+    color: #f9f9f9;
+  }
+}
+.kontakt{
+  margin:0 auto;
+  .kontakttext{
+padding-top: 70px;
+padding-left: 115px;
+padding-bottom: 50px;
+
+    h1{
+      font-family: "Roboto", sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 44px;
+line-height: 52px;
+
+text-transform: uppercase;
+
+
+
+color: #32495E;
+    }
+  }
+}
